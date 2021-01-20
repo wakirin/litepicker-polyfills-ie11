@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES5",
+    "declaration": true,
+    "esModuleInterop": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/index.ts",
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
